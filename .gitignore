@@ -3,6 +3,12 @@
 .env.local
 .env.*.local
 
+# Database
+*.db
+
+# Uploads (development)
+backend/uploads/
+
 # Python
 __pycache__/
 *.py[cod]

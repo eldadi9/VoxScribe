@@ -12,6 +12,8 @@ class Settings(BaseSettings):
     app_env: str = "development"
     debug: bool = False
     api_v1_prefix: str = "/api/v1"
+    database_url: str = "sqlite:///./voxscribe_dev.db"
+    uploads_dir: str = "./uploads"
 
 
 def get_settings() -> Settings:
